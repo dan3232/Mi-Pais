@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    /* background-image: url(./images/paisaje-costa.jpg); */
+    font-family: 'Merriweather', serif;
+    
+}
+
+#main-img {
+    background-image: url(./images/paisaje-costa.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tittle-text {
+    background-color:rgba(160, 201, 228, 0.85);
+}
+
+#tittle-text1 {
+    background-color: rgba(64, 146, 201, 0.85);
+}
+
+.main-tittle {
+    padding: 6px 12px;
+    margin: 7px;
+}
+
+#info-part {
+    margin: 0;
+    background: #DFEDF6;
+    text-align: center;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#info-tittle {
+    margin: 0;
+    padding: 40px 0 50px 0;
+}
+
+#text-part {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.text-item {
+    width: 230px;
+    text-align: center;
+}
+
+.item:hover {
+    background-color: #A7AAB4;
+}
+
+#guide-card {
+    display: flex;
+    width: 500px;
+    margin: 70px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #9FCAE5;
+    border-bottom: 12px solid #A7AAB4;
+    padding-bottom: 18px;
+}
+
+#guide-text {
+    padding-left: 20px;
+}
+
+#guide-img { 
+    width: 150px;
+    border-radius: 10px;
+    border: 4px solid gray;
+}
+
